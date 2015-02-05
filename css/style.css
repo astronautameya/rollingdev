@@ -1,4 +1,4 @@
-/** {
+/* {
 	border-color: black;
 	border-width: 0.5px;
 	border-style: solid;
@@ -31,6 +31,88 @@ body {
 
 #what {
 	text-align: center;
+	height: 641px;
+	width: 100%;
+	background: -webkit-linear-gradient(left top, #B8B8DC , #99EBFF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #B8B8DC , #99EBFF); /* Standard syntax */
+}
+
+#whatheadtext {
+	width: 1200px;
+	height: 150px;
+	margin: auto;
+	font-size: 1.5em;
+	letter-spacing: 0.2em;
+}
+
+#what h1 {
+	display: inline;
+}
+
+.inlinecontent {
+	height: 300px;
+}
+
+.divider {
+    background-color: #25292c;
+    height: 1.3px;
+    margin: 20px auto 40px;
+    width: 100px;
+}
+
+.inlinecontent p {
+	font-size: 1.5em;
+}
+.inlinecontent img {
+	height: 100px;
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+.inlinecontent div {
+	margin-left: 25px;
+	margin-right: 25px;
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	height: 100%;
+}
+
+
+
+#about {
+	height: 641px;
+	width: 100%;
+	background: -webkit-linear-gradient(left top, #B8B8DC , #99EBFF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #B8B8DC , #99EBFF); /* Standard syntax */
+}
+
+#about .inlinecontent {
+		height: 400px;	
+}
+
+#about .inlinecontent div {
+	height: 300px;
+	width: 200px;
+}
+
+#about img {
+	width: 100%;
+	height: 66%;
+}
+
+#about .inlinecontent p {
+	font-size: 0.6em;
+	font-weight: bold;
+}
+
+#about .inlinecontent p img {
+	height: 10px;
+	width: 10px;
 }
 
 #contact {
@@ -47,24 +129,6 @@ body {
 	height: 35px;
 	width: 100%;
 	
-}
-
-#vision {
-	height: 641px;
-	width: 100`;
-	background: -webkit-linear-gradient(left top, #B8B8DC , #99EBFF); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, #B8B8DC , #99EBFF); /* Standard syntax */
-}
-
-#about {
-	height: 641px;
-	width: 100%;
-	background: -webkit-linear-gradient(left top, #B8B8DC , #99EBFF); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, #B8B8DC , #99EBFF); /* Standard syntax */
 }
 
 .sl-slider-wrapper {
