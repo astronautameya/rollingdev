@@ -1,3 +1,11 @@
+/** {
+	border-color: black;
+	border-width: 0.5px;
+	border-style: solid;
+}
+
+/*realcodebegins*/
+
 .view {
    width: 200px;
    height: 200px;
@@ -32,13 +40,6 @@
    height:20px;
 }
 
-
-* {
-	border-color: black;
-	border-width: 0.5px;
-	border-style: solid;
-}
-
 body {
 	background-color: #eee;
 }
@@ -55,7 +56,7 @@ body {
 	height: 35px;
 	width: 100%;
 	z-index: 100000;
-	background-color: #eee;
+	background-color: white;
 }
 
 #slide {
@@ -68,10 +69,6 @@ body {
 	text-align: center;
 	height: 641px;
 	width: 100%;
-	background: -webkit-linear-gradient(left top, #B8B8DC , #99EBFF); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, #B8B8DC , #99EBFF); /* Standard syntax */
 }
 
 #whatheadtext {
@@ -101,6 +98,17 @@ body {
 .inlinecontent p {
 	font-size: 1.5em;
 }
+
+#careers .inlinecontent p {
+	font-size: 1em;
+}
+
+#careers {
+	text-align: center;
+	height: 641px;
+	width: 100%;
+}
+
 .inlinecontent img {
 	height: 100px;
 	width: 100px;
@@ -117,6 +125,15 @@ body {
 	height: 100%;
 }
 
+#careers .inlinecontent div {
+	margin-left: 65px;
+	margin-right: 65px;
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	height: 100%;
+}
+
 .inlinecontent .view {
 	margin-right: 30px;
 	margin-left: 30px;
@@ -127,10 +144,6 @@ body {
 #about {
 	height: 641px;
 	width: 100%;
-	background: -webkit-linear-gradient(left top, #B8B8DC , #99EBFF); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, #B8B8DC , #99EBFF); /* Standard syntax */
 }
 
 #about .inlinecontent {
@@ -157,20 +170,26 @@ body {
 	width: 10px;
 }
 
+#careers .inlinecontent {
+	margin-top: 15px;
+}
+
 #contact {
 	height: 641px;
 	width: 100%;
-	background: -webkit-linear-gradient(left top, #B8B8DC , #99EBFF); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, #B8B8DC , #99EBFF); /* Standard syntax */
+	text-align: center;
+	font-size: 2em;
+}
+
+#contact p {
+	font-size: 0.6em;
 }
 
 #footer {
 	background-color: #eee;
 	height: 35px;
 	width: 100%;
-	
+	clear: left;	
 }
 
 .sl-slider-wrapper {
@@ -288,3 +307,29 @@ body {
 	background: #ccc;
 }
 
+#neveruse {
+background: -webkit-linear-gradient(left top, #B8B8DC , #99EBFF); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to bottom right, #B8B8DC , #99EBFF); /* Standard syntax */
+}
+
+#background {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+  background-image: url("images/rahul.jpg");
+}
+
+#background::after {
+  content: "";
+  background: url("images/rahul.jpg");
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
