@@ -1,8 +1,43 @@
-/* {
+.view {
+   width: 200px;
+   height: 200px;
+   margin: 10px;
+   margin: auto;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   box-shadow: 0px 0px 5px #aaa;
+   cursor: default;
+}
+.view .mask, .view .content {
+	color: white;
+	text-align: center;
+   width: 200px;
+   height: 200px;
+   position: absolute;
+   overflow: visible;
+   top: 0;
+   left: 0;
+}
+.view img {
+   display: block;
+   position: relative;
+}
+.view a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding:0;
+   text-indent:-9999px;
+   width:20px;
+   height:20px;
+}
+
+
+* {
 	border-color: black;
 	border-width: 0.5px;
 	border-style: solid;
-}*/
+}
 
 body {
 	background-color: #eee;
@@ -53,6 +88,7 @@ body {
 
 .inlinecontent {
 	height: 300px;
+	margin-top: 30px;
 }
 
 .divider {
@@ -72,12 +108,18 @@ body {
 }
 
 .inlinecontent div {
-	margin-left: 25px;
-	margin-right: 25px;
+	/*margin removed to make rollover effects align with image*/
+	/*margin-left: 25px;
+	margin-right: 25px;*/
 	display: inline-block;
 	vertical-align: top;
 	width: 300px;
 	height: 100%;
+}
+
+.inlinecontent .view {
+	margin-right: 30px;
+	margin-left: 30px;
 }
 
 
@@ -96,13 +138,13 @@ body {
 }
 
 #about .inlinecontent div {
-	height: 300px;
+	height: 200px;
 	width: 200px;
 }
 
 #about img {
 	width: 100%;
-	height: 66%;
+	height: 100%;
 }
 
 #about .inlinecontent p {
