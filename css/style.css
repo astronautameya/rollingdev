@@ -6,10 +6,6 @@
 
 /*realcodebegins*/
 
-body {
-	background-color: white;
-}
-
 #top1 {
 	height:0;
 	width:0;
@@ -61,6 +57,13 @@ body {
     width: 100px;
 }
 
+#what .divider {
+    background-color: #25292c;
+    height: 1.3px;
+    margin: 20px auto 40px;
+    width: 300px;
+}
+
 .inlinecontent p {
 	font-size: 1.5em;
 }
@@ -101,12 +104,13 @@ body {
 }
 
 #about {
+	background-image: url(images/3.jpg) no-repeat;
 	height: 641px;
 	width: 100%;
 }
 
 #about .inlinecontent {
-		height: 400px;	
+	height: 400px;	
 }
 
 #about .inlinecontent div {
