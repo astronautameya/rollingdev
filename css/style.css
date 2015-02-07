@@ -6,40 +6,6 @@
 
 /*realcodebegins*/
 
-.view {
-   width: 200px;
-   height: 200px;
-   margin: 10px;
-   margin: auto;
-   overflow: hidden;
-   position: relative;
-   text-align: center;
-   box-shadow: 0px 0px 5px #aaa;
-   cursor: default;
-}
-.view .mask, .view .content {
-	color: white;
-	text-align: center;
-   width: 200px;
-   height: 200px;
-   position: absolute;
-   overflow: visible;
-   top: 0;
-   left: 0;
-}
-.view img {
-   display: block;
-   position: relative;
-}
-.view a.info {
-   display: inline-block;
-   text-decoration: none;
-   padding:0;
-   text-indent:-9999px;
-   width:20px;
-   height:20px;
-}
-
 body {
 	background-color: white;
 }
@@ -134,13 +100,6 @@ body {
 	height: 100%;
 }
 
-.inlinecontent .view {
-	margin-right: 30px;
-	margin-left: 30px;
-}
-
-
-
 #about {
 	height: 641px;
 	width: 100%;
@@ -151,6 +110,8 @@ body {
 }
 
 #about .inlinecontent div {
+	margin-left: 75px;
+	margin-right: 75px;
 	height: 200px;
 	width: 200px;
 }
