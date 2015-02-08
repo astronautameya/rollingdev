@@ -1,4 +1,4 @@
-/** {
+//** {
 	border-color: black;
 	border-width: 0.5px;
 	border-style: solid;
@@ -57,6 +57,13 @@
     width: 100px;
 }
 
+#top .divider {
+    background-color: #25292c;
+    height: 1.3px;
+    margin: 1px auto;
+    width: 100%;
+}
+
 #what .divider {
     background-color: #25292c;
     height: 1.3px;
@@ -69,13 +76,17 @@
 }
 
 #careers .inlinecontent p {
-	font-size: 1em;
+	font-size: 0.75em;
 }
 
 #careers {
 	text-align: center;
 	height: 641px;
 	width: 100%;
+}
+
+#careers p {
+	margin-top: 20px;
 }
 
 .inlinecontent img {
@@ -104,9 +115,9 @@
 }
 
 #about {
-	background-image: url(images/3.jpg) no-repeat;
-	height: 641px;
-	width: 100%;
+
+  height: 641px;
+  width: 100%;
 }
 
 #about .inlinecontent {
@@ -137,6 +148,10 @@
 
 #careers .inlinecontent {
 	margin-top: 15px;
+}
+
+#careers .inlinecontent h4 {
+	font-size: 1em;
 }
 
 #contact {
@@ -270,31 +285,4 @@
 
 .sl-slide-vertical .sl-slide-inner {
 	background: #ccc;
-}
-
-#neveruse {
-background: -webkit-linear-gradient(left top, #B8B8DC , #99EBFF); /* For Safari 5.1 to 6.0 */
-background: -o-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Opera 11.1 to 12.0 */
-background: -moz-linear-gradient(bottom right, #B8B8DC, #99EBFF); /* For Firefox 3.6 to 15 */
-background: linear-gradient(to bottom right, #B8B8DC , #99EBFF); /* Standard syntax */
-}
-
-#background {
-  width: 200px;
-  height: 200px;
-  display: block;
-  position: relative;
-  background-image: url("images/rahul.jpg");
-}
-
-#background::after {
-  content: "";
-  background: url("images/rahul.jpg");
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
 }
