@@ -21,6 +21,10 @@
 	background-color: white;
 }
 
+#top li {
+	display: inline;
+}
+
 #slide {
 	text-align: center;
 	font-size: 2em;
@@ -38,7 +42,7 @@
 	height: 150px;
 	margin: auto;
 	font-size: 1.5em;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.15em;
 }
 
 #what h1 {
@@ -105,6 +109,16 @@
 	height: 100%;
 }
 
+#what .inlinecontent div {
+	
+	margin-left: 25px;
+	margin-right: 25px;
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	height: 100%;
+}
+
 #careers .inlinecontent div {
 	margin-left: 65px;
 	margin-right: 65px;
@@ -115,7 +129,6 @@
 }
 
 #about {
-
   height: 666px;
   width: 100%;
 }
@@ -163,6 +176,7 @@
 
 #contact p {
 	font-size: 0.6em;
+	letter-spacing: 0.1em;
 }
 
 #footer {
