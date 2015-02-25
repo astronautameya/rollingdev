@@ -267,58 +267,60 @@
 
 		<div id="about">
 			<br><br>
-			<div id="slide" style="background: url(images/about_bkg.gif) no-repeat center fixed; background-size:cover;">
+			<div class="slide" style="background: url(images/about_bkg.gif) no-repeat center fixed; background-size:cover;">
 				<br>
 				<h3>Who we are</h3>
 				<div class="divider"></div>
 				<p style="font-size:.9em; margin-top:20px;"><b>Travelers. Dreamers. Technologists.</b></p>
-				<div class="inlinecontent" style="margin-top:35px;">
+				<ul id="team">
 						
-					<div>
-						<img src="images/ameya.png" style="box-shadow: 7px 7px 10px #838C91; -moz-box-shadow: 7px 7px 10px #838C91; -webkit-box-shadow: 7px 7px 10px #838C91; -o-box-shadow: 7px 7px 10px #838C91; border-radius:100%;"><br>
-						<p>Ameya Sahasrabudhe</p>
+					<li class="profile">
+						<img src="images/ameya.png" style="box-shadow: 7px 7px 10px #838C91; -moz-box-shadow: 7px 7px 10px #838C91; -webkit-box-shadow: 7px 7px 10px #838C91; -o-box-shadow: 7px 7px 10px #838C91; border-radius:100%;">
+						<p class="name">Ameya Sahasrabudhe</p>
 						<a href="https://www.linkedin.com/in/astronautameya" target="_blank"><img src="images/linkedin.png" style="height:25px; width:25px; margin:10px 0 0 0;"/></a>
 						<p style="font-size:0.4em; color:#666666;"><em>ameya@getithaka.com</em></p>
-					</div>
-					<div>
-						<img src="images/rahul.png"style="box-shadow: 7px 7px 10px #838C91; -moz-box-shadow: 7px 7px 10px #838C91; -webkit-box-shadow: 7px 7px 10px #838C91; -o-box-shadow: 7px 7px 10px #838C91; border-radius:100%;"><br>
-						<p>Rahul Singh</p>
+					</li>
+					<li class="profile">
+						<img src="images/rahul.png"style="box-shadow: 7px 7px 10px #838C91; -moz-box-shadow: 7px 7px 10px #838C91; -webkit-box-shadow: 7px 7px 10px #838C91; -o-box-shadow: 7px 7px 10px #838C91; border-radius:100%;">
+						<p class="name">Rahul Singh</p>
 						<a href="https://www.linkedin.com/pub/rahul-singh/13/57/466" target="_blank"><img src="images/linkedin.png" style="height:25px; width:25px; margin:10px 0 0 0;"/></a>
 						<p style="font-size:0.4em; color:#666666;"><em>rahul@getithaka.com</em></p>
-					</div>
+					</li>
 					
-				</div>
+				</ul>
 			</div>
 		</div>
 
 		<div id="careers" style="background: url(images/careers_bkg.gif) no-repeat center fixed; background-size:cover;">
 			<br><br>
-			<div id="slide">
+			<div class="slide">
 				<br>
 				<h3>Careers</h3>
 				<div class="divider"></div>
-				<div class="inlinecontent">
-					<div>
-						<img src="images/frontend_color.png"><br>
-						<h4>Front-end Developer</h4>
-						<p style="margin-top:5px;">Do you paint in Javascript?</p> 
-						<p style="margin-top:0.5px;">Lets create a masterpiece together</p>
-					</div>
-					<div>
-						<img src="images/backend_color.png"><br>
-						<h4>Back-end Developer</h4>
-						<p style="margin-top:5px;">Do you write poems in Ruby? </p>
-						<p style="margin-top:0.5px;">We're composing an epic,</p>
-						<p style="margin-top:0.5px;">join us!</p>
-					</div>
-
-				</div>		
+				<ul id="joblist" class="inlinecontent">
+					<li class="profile">
+						<img class="joblogo" src="images/frontend_color.png"><br>
+						<div class="jobinfo">
+    						<p class="profilename h4">Front-end Developer</p>
+    						<p>Do you paint in Javascript?</p> 
+    						<p>Lets create a masterpiece together</p>
+						</div>
+					</li>
+					<li class="profile">
+						<img class="joblogo" src="images/backend_color.png"><br>
+						<div class="jobinfo">
+    						<p class="profilename h4">Back-end Developer</p>
+    						<p>Do you write poems in Python? </p>
+    						<p>We're composing an epic, join us!</p>
+						</div>
+					</li>
+				</ul>		
 
 			</div>
 		</div>
 
 		<div id="contact" style="background: url(images/contact_bkg.gif) no-repeat center fixed; background-size:cover;">
-			<br><br><br>
+			<br>
 			<h3>Get in Touch</h3>
 			<div class="divider"></div>
 			<div id="whatheadtext">
