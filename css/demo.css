@@ -45,12 +45,12 @@ a {
 	text-decoration: none;
 }
 
-.container {
+.democontainer {
 	width: 100%;
 	position: relative;
 }
 
-.container.demo-1 {
+.democontainer.demo-1 {
 	height: 100%;
 	position: absolute;
 }
@@ -68,7 +68,7 @@ a {
 	position: relative;
 }
 
-.container > header,
+.democontainer > header,
 .content-wrapper {
 	padding: 10px;
 	width: 80%;
@@ -88,7 +88,7 @@ h1 {
 	text-align: left;
 	margin-left: 10px;
 }
-/*.container > header h1 {
+/*.democontainer > header h1 {
 	float: left;
 	font-size: 28px;
 	line-height: 28px;
@@ -97,7 +97,7 @@ h1 {
 	color: #333;
 }*/
 
-.container > header h1 span {
+.democontainer > header h1 span {
 	display: block;
 	font-size: 20px;
 	font-weight: 300;
